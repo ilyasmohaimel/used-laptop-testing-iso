@@ -4,6 +4,12 @@ Boot a used laptop, connect it to the internet, and run a structured hardware in
 
 This is an unofficial SystemRescue 13.02 image with OpenCode and a general used-laptop testing prompt built into the live environment. The prompt assesses the tested laptop on its capabilities, condition, Linux compatibility, and value.
 
+## Personal context
+
+I built this image for my own used-laptop search as a Computer Science student in China. My target is an all-AMD laptop, with both AMD CPU and AMD graphics, that offers strong Linux compatibility for university work, software development, and light to moderate gaming.
+
+The included workloads, priorities, and scoring reflect that goal. I am sharing the image because it may be useful to other buyers, but it is not a universal laptop-testing standard and may not fit your location, budget, workloads, hardware preferences, or risk tolerance. Review and adapt the embedded prompt before relying on its recommendation.
+
 ## Download
 
 [Download the current ISO from the latest release](https://github.com/ilyasmohaimel/used-laptop-testing-iso/releases/latest).
