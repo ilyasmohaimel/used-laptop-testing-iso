@@ -7,7 +7,8 @@ The ISO includes:
 - OpenCode 1.18.29 at `/usr/local/bin/opencode`
 - a clean, no-login OpenCode configuration using `opencode/big-pickle`
 - full OpenCode tool access enabled by default
-- a laptop-testing prompt at `/root/systemrescue_opencode full test.md`
+- a general used-laptop testing prompt at `/root/systemrescue_opencode full test.md`
+- independent capability and value scoring with no previous-computer comparison
 - an XFCE desktop launcher for OpenCode
 - no copied account credentials, API keys, sessions, caches, or history
 
@@ -24,14 +25,14 @@ sha256sum --check SHA256SUMS
 The expected ISO SHA-256 is:
 
 ```text
-0aae848951359c8cd9602b0253c044cdddcc02a4334ffd79b44078b2ce43b574
+4847202ccc98976b20a51ef97e15d9478f5eada1a2a8e31d4fec0f1d2650aa4e
 ```
 
 The ISO is intended to be selected directly from a Ventoy boot menu.
 
 ## Validation
 
-The customized image was tested through real QEMU boots. Validation covered SystemRescue startup, prompt integrity, offline OpenCode startup, anonymous Big Pickle inference, shell and file tool use, subagent execution, Exa web search, the XFCE desktop launcher, and a second clean boot with no persisted OpenCode state.
+The OpenCode customization was validated through real QEMU boots, including anonymous Big Pickle inference, shell and file tool use, subagent execution, Exa web search, the XFCE desktop launcher, and a second clean boot with no persisted OpenCode state. The generalized-prompt rebuild was then boot-tested again for SystemRescue startup, embedded prompt integrity, offline OpenCode startup, full-access configuration, launcher presence, and absence of authentication state.
 
 ## Upstream projects and source
 
